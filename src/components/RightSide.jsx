@@ -9,6 +9,7 @@ function RightSide({ weather, setLocation }) {
         <input
           type="text"
           id="input"
+          autoComplete={"off"}
           //   value={location}
           onChange={(e) => {
             console.log(e);
